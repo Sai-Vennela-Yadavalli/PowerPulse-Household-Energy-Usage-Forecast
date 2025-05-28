@@ -26,13 +26,31 @@ A machine learning project to forecast household power consumption using histori
 
 ## 🛠️ Approach
 
-1. Data loading and cleaning
-2. Exploratory Data Analysis (EDA)
-3. Feature engineering
-4. Model training with 4 regressors
-5. Hyperparameter tuning using GridSearchCV
-6. Model evaluation using RMSE, MAE, R²
-7. Model selection and export
+Our goal was to forecast household energy consumption using historical data. We followed a structured Data Science pipeline:
+
+1. **Data Loading & Preprocessing**
+   - Combined date and time into a single datetime column
+   - Handled missing values
+   - Converted all numerical features to appropriate types
+
+2. **Exploratory Data Analysis (EDA)**
+   - Analyzed energy usage patterns using histograms, trend lines, and correlation heatmaps
+   - Detected outliers using the IQR method
+
+3. **Feature Engineering**
+   - Created daily average, 60-minute rolling average, and peak hour flags
+   - Normalized numerical features for improved model performance
+
+4. **Model Selection and Training**
+   - Trained multiple regression models: Linear Regression, Random Forest, Gradient Boosting, and MLPRegressor
+   - Used GridSearchCV for hyperparameter tuning on top models
+
+5. **Model Evaluation**
+   - Evaluated each model using RMSE, MAE, and R²
+   - Selected MLPRegressor as the best-performing model
+
+6. **Model Saving**
+   - Saved the trained model using `joblib` for future use or deployment
 
 ---
 
@@ -57,20 +75,18 @@ A machine learning project to forecast household power consumption using histori
 
 ## 💾 How to Run
 
-1. Clone the repo
-2. Run notebooks in order from `/notebooks/`
+1. Clone the repo  
+2. Run notebooks in order from `/notebooks/`  
 3. Load and use the trained model from `/models/`
 
 ```bash
 pip install -r requirements.txt
 
+---
 
-## 🔗 Connect With Me
-
+**## 🔗 Connect With Me**
 If you found this project interesting or would like to collaborate, feel free to connect with me on LinkedIn:
 
-👉 [Sai Vennela Yadavalli](https://www.linkedin.com/in/sai-vennela-yadavalli-8b854432a)
+👉 Sai Vennela Yadavalli
 
 I'd love to hear your feedback or discuss more about Data Science and Machine Learning!
-
-
