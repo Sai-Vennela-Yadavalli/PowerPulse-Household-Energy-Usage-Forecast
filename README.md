@@ -79,14 +79,14 @@ Our goal was to forecast household energy consumption using historical data. We 
 2. Run notebooks in order from `/notebooks/`  
 3. Load and use the trained model from `/models/`
 
-```bash
+bash
 pip install -r requirements.txt
 
----
 
 **## 🔗 Connect With Me**
 If you found this project interesting or would like to collaborate, feel free to connect with me on LinkedIn:
 
-👉 Sai Vennela Yadavalli
+👉 [Sai Vennela Yadavalli](https://www.linkedin.com/in/sai-vennela-yadavalli-8b854432a)
 
 I'd love to hear your feedback or discuss more about Data Science and Machine Learning!
+
