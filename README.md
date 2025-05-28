@@ -64,7 +64,3 @@ A machine learning project to forecast household power consumption using histori
 ```bash
 pip install -r requirements.txt
 ---
-
-**## 🔗 Data Source**
-
-- (https://archive.ics.uci.edu/dataset/235/individual+household+electric+power+consumption)
