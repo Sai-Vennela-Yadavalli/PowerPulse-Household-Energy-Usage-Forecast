@@ -64,9 +64,15 @@ A machine learning project to forecast household power consumption using histori
 ```bash
 pip install -r requirements.txt
 ---
+---
 
-****## 📬 Contact****
+## 🔗 Connect With Me
 
-For questions, drop a message or connect on [LinkedIn](http://www.linkedin.com/in/sai-vennela-yadavalli-8b854432a)
+If you found this project interesting or would like to collaborate, feel free to connect with me on LinkedIn:
+
+👉 [Sai Vennela Yadavalli](https://www.linkedin.com/in/sai-vennela-yadavalli-8b854432a)
+
+I'd love to hear your feedback or discuss more about Data Science and Machine Learning!
 
 ---
+
