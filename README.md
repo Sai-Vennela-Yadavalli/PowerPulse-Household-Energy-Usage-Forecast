@@ -82,8 +82,9 @@ Our goal was to forecast household energy consumption using historical data. We 
 bash
 pip install -r requirements.txt
 
+---
 
-**## 🔗 Connect With Me**
+## 🔗 Connect With Me
 If you found this project interesting or would like to collaborate, feel free to connect with me on LinkedIn:
 
 👉 [Sai Vennela Yadavalli](https://www.linkedin.com/in/sai-vennela-yadavalli-8b854432a)
